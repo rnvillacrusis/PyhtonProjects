@@ -1,0 +1,25 @@
+Syntax:
+1. Enter name
+2. Welcome the user
+3. Guess the word in 10 attempts. "Take a guess. Enter a letter!"
+4. Check if the letter is a valid letter. if invalid print "Enter a valid character from a-z"
+5. If right, enter put the letter to an empty list
+6. If wrong letter, deduct 1 attempt from 10 attempts
+7. Print the ceiling for "9 turns left"
+   Print the face for 8
+   Print the body for 7
+   Print leg 1 for 6
+   Print leg 2 for 5
+   Print arm 1 for 4
+   Print arm 2 for 3
+   Print rope downward for 2
+   Print rope left inward for 1
+   Print "Guess the word" for the last attempt
+8. If last attempt is wrong, print the hanged body and "You loose. You let the kind man die"  else "You guessed the correct word"
+
+
+Algorithm:
+1. Develop the user interface #user inputs,welcome message, ask name
+2. predefined list #create a predefined function and inside this make a list
+3. instruction #attempts, empty list for guess made and for the main word
+4. 

@@ -1,0 +1,20 @@
+Dictionary Project:
+1. You can use PyDictionary
+	pip install PyDictionary #type this at terminal
+#see how you will use Pydictionary
+
+2. You can also use a json file
+Approach:
+a. Test how dictionary-json file works
+b. User input: enter the word you want to define
+c. Predefine a function that will translate the word entered so that you can
+   use if-else statements for the different types of input
+d. Consider first lowercases then uppercases for the input:
+   title(), uppercase(), lowercase(), capitalize()
+e. Print the different definitions in separate lines by using if statement and for
+   statement inside it
+f. Use get_close_matches for inputs that for mispelled words
+	format of get_close_matches: get_close_matches["abc",x,cutoff=.8]
+	#here the word is user input "abc"
+	#x is where the close matches (list) is stored
+	#then .8 is the accuracy rate, always allow errors (not too high accuracy) so that you can get close matches
